@@ -5,7 +5,7 @@ from .models import Leads
 import csv
 from django.contrib import messages
 
-# Create your views here.
+#Eesa added this here
 def index(request):
     lead = Leads.objects.all()
     lead_count = Leads.objects.all().count()
