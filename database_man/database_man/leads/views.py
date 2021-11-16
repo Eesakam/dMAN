@@ -37,7 +37,7 @@ def delete_lead(request,id):
     delobj = get_object_or_404(Leads,id=id).delete()
     return HttpResponseRedirect("/")
 
-
+# WE NEED TO FIX SEARCH FUNCTIONALITY
 # def SearchItem(request):
 #     if request.method == 'GET':
 #         query= request.GET.get('q')
